@@ -93,7 +93,7 @@ border-color: rgb(181, 181, 21);
   onclick="
   pickComputerMove();
 
-  
+  <--! for rock button -->
   let result = '';
 if (computerMove === 'rock' ){
   result = 'Tie.';
@@ -106,10 +106,10 @@ if (computerMove === 'rock' ){
 alert(`You  picked rock. Computer picked ${computerMove}. ${result}`);
 
   ">
-  <img class="rock" src="images/rock.png">
+  <img class="rock" src="rock.png">
   </button>
 
-
+<--! for paper button -->
 
   <button class="paper-button" 
   onclick="
@@ -129,9 +129,11 @@ if (computerMove === 'rock' ){
 alert(`You  picked paper. Computer picked ${computerMove}. ${result}`);
 
  ">
-    <img class="paper" src="images/paper.png"
+    <img class="paper" src="paper.png"
   </button>
 
+<--! for scissors button -->
+    
   <button  class="Sicssors-button" 
   onclick="
  pickComputerMove ();
@@ -149,7 +151,7 @@ if (computerMove === 'rock' ){
 alert(`You  picked Sicssors. Computer picked ${computerMove}. ${result}`);
 "
 >
-   <img class="sicssors" src="images/sicssors.png"
+   <img class="sicssors" src="sicssors.png"
   </button>
 </div>
 </div>
